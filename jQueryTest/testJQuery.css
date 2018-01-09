@@ -1,0 +1,51 @@
+body{
+    background-image:url("https://wallpapercave.com/wp/XbmNalC.jpg");    
+    background-size: 1800px 650px; 
+    background-repeat: no-repeat;
+}
+
+#goku {
+  position: absolute;
+  right: 20px;
+}
+
+#freezer {
+  position: absolute;
+  left: 20px;
+}
+
+#junior {
+  position: absolute;
+  right: 30px;
+  top: 250px;
+  display: none;
+}
+
+#cell {
+  position: absolute;
+  left: 30px;
+  top: 25px;
+  display: none;
+}
+
+
+canvas {
+  display : none;
+  border-radius: 250px 15px 20px 200px;
+  position : absolute;
+  top: 50px;
+  right: 50px;
+  background-color: #89F5E6;
+  z-index: -1;
+}
+
+
+h3 {
+  display : none;
+  top: 50%;
+  bottom: 50%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+}
